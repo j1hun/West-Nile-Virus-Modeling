@@ -25,7 +25,7 @@ $$
 
 For example, if we tested a trap 5 times during the week and saw 10 mosquitos each time and 3 times the trap was positive then $\text{MIR} = 1000 (3/50) = 60$.
 
-We need to build a regression model(s) to predict $${MIR}_t, {MIR}_{t+1}, {MIR}_{t+2}$$ based historical information and other covariate information. 
+We need to build a regression model(s) to predict $$MIR_t, MIR_{t+1}, MIR_{t+2}$$ based historical information and other covariate information. 
  - Make one model that predicts all three
  - Or three models that predict each one independently
 
