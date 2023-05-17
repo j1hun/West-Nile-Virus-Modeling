@@ -29,4 +29,4 @@ We need to build a regression model(s) to predict $\text{MIR}_t, \text{MIR}_{t+1
  - Make one model that predicts all three
  - Or three models that predict each one independently
 
-<img src="https://render.githubusercontent.com/render/math?math=$\text{MIR}_t, \text{MIR}_{t+1}, \text{MIR}_{t+2}$">
+<img src="https://render.githubusercontent.com/render/math?math=\text{MIR} = 1000 \times \frac{\text{# positive traps}}{\text{# mosquitos tested}}">
