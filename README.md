@@ -19,14 +19,14 @@ We will model the average _minimum infection rate_ (MIR) each week at each trap 
 
 
 $$
-\text{MIR} = 1000 \times \frac{\text{num positive traps}}{\text{num mosquitos tested}}
+\text{MIR} = 1000 \times \frac{\text{number of positive traps}}{\text{number of mosquitos tested}}
 $$
 
 
 For example, if we tested a trap 5 times during the week and saw 10 mosquitos each time and 3 times the trap was positive then $\text{MIR} = 1000 (3/50) = 60$.
 
-We need to build a regression model(s) to predict $\text{MIR}_t, \text{MIR}_{t+1}, \text{MIR}_{t+2}$ based historical information and other covariate information. 
+We need to build a regression model(s) to predict $$\text{MIR}_t, \text{MIR}_{t+1}, \text{MIR}_{t+2}$$ based historical information and other covariate information. 
  - Make one model that predicts all three
  - Or three models that predict each one independently
 
-<img src="https://render.githubusercontent.com/render/math?{\text{MIR}_t, \text{MIR}_{t+1}, \text{MIR}_{t+2}}>
+
