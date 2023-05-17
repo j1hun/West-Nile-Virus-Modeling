@@ -18,9 +18,9 @@ Our task is to build a forecasting model to predict the prevelance of WNV across
 We will model the average _minimum infection rate_ (MIR) each week at each trap location. The MIR is defined as
 
 
-$$
-\text{MIR} = 1000 \times \frac{\text{# positive traps}}{\text{# mosquitos tested}}
-$$
+$
+\text{MIR} = 1000 \times \frac{\text{num positive traps}}{\text{num mosquitos tested}}
+$
 
 
 For example, if we tested a trap 5 times during the week and saw 10 mosquitos each time and 3 times the trap was positive then $\text{MIR} = 1000 (3/50) = 60$.
